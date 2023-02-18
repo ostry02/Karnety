@@ -1,49 +1,31 @@
 package org.example;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-
-import java.util.Date;
-
+import java.time.LocalDate;
 
 public class DatyAktywacji {
-    SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
-    private String dataAktywacjis = "19/02/2023";
-    private String dataDezaktywacjis=  "19/02/2023";
-    private Date dataAktywacji = simpleDateFormat.parse(dataAktywacjis);
+    public LocalDate dataAktywacji;
 
-    private Date dataDeaktywacji = simpleDateFormat.parse(dataDezaktywacjis);
-    public Date dataTeraz =new Date();
-
-    public String getDataDezaktywacjis() {
-        return dataDezaktywacjis;
+    public LocalDate getDataTeraz() {
+        return dataTeraz;
     }
 
-    public void setDataDezaktywacjis(String dataDezaktywacjis) {
-        this.dataDezaktywacjis = dataDezaktywacjis;
-    }
+    protected LocalDate dataDezaktywacji;
+    public final LocalDate dataTeraz = LocalDate.now();
 
-    public String getDataAktywacjis() {
-        return dataAktywacjis;
-    }
-
-    public void setDataAktywacjis(String dataAktywacjis) {
-        this.dataAktywacjis = dataAktywacjis;
-    }
-
-    public DatyAktywacji() throws ParseException {
-    }
-
-    public Date getDataAktywacji() {
+    public LocalDate getDataAktywacji() {
         return dataAktywacji;
     }
 
-    public Date getDataDeaktywacji() {
-        return dataDeaktywacji;
+    public void setDataAktywacji(LocalDate dataAktywacji) {
+        this.dataAktywacji = dataAktywacji;
     }
 
-    public void setDataDeaktywacji(Date dataDeaktywacji) {
-        this.dataDeaktywacji = dataDeaktywacji;
+    public LocalDate getDataDezaktywacji() {
+        return dataDezaktywacji;
     }
+
+    public void setDataDezaktywacji(LocalDate dataDezaktywacji) {
+        this.dataDezaktywacji = dataDezaktywacji;
+    }
+
 }
-
