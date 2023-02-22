@@ -3,6 +3,7 @@ package org.example;
 import java.time.LocalDate;
 
 public class DatyAktywacji {
+    public Integer dlugoscDzialaniaDni;
     public LocalDate dataAktywacji;
 
     public LocalDate getDataTeraz() {
@@ -28,4 +29,11 @@ public class DatyAktywacji {
         this.dataDezaktywacji = dataDezaktywacji;
     }
 
+    public Integer getDlugoscDzialaniaDni() {
+        return dlugoscDzialaniaDni;
+    }
+
+    public void setDlugoscDzialaniaDni(Integer dlugoscDzialaniaDni) {
+        this.dlugoscDzialaniaDni = dlugoscDzialaniaDni;
+    }
 }
