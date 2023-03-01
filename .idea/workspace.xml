@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb7931d3-a093-4fde-8d5b-8e8e61299278" name="Changes" comment="Działa normalnie dla wpisanej daty, ale nie dokonczone sprawdzanie">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CenaKarenetu.java" afterDir="false" />
+    <list default="true" id="bb7931d3-a093-4fde-8d5b-8e8e61299278" name="Changes" comment="Dodałem napis, aby program był bardziej przejrzysty oraz ceny na ifach">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Aktywnosc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Aktywnosc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Cena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Cena.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DatyAktywacji.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DatyAktywacji.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Karnet.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Karnet.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CenaKarenetu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Karnet.form" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +73,8 @@
       <workItem from="1676740237245" duration="8343000" />
       <workItem from="1676759282032" duration="1653000" />
       <workItem from="1676833519226" duration="6227000" />
-      <workItem from="1677100308042" duration="3834000" />
+      <workItem from="1677100308042" duration="3930000" />
+      <workItem from="1677687992543" duration="703000" />
     </task>
     <task id="LOCAL-00001" summary="Działa dla stałych data">
       <created>1676743249577</created>
@@ -90,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676760763122</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Dodałem napis, aby program był bardziej przejrzysty oraz ceny na ifach">
+      <created>1677104480151</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677104480151</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +117,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Działa dla stałych data" />
     <MESSAGE value="Działa normalnie dla wpisanej daty, ale nie dokonczone sprawdzanie" />
-    <option name="LAST_COMMIT_MESSAGE" value="Działa normalnie dla wpisanej daty, ale nie dokonczone sprawdzanie" />
+    <MESSAGE value="Dodałem napis, aby program był bardziej przejrzysty oraz ceny na ifach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodałem napis, aby program był bardziej przejrzysty oraz ceny na ifach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

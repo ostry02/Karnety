@@ -26,5 +26,4 @@ public class Cena extends Aktywnosc{
             System.out.println("Cena karentu to: " + getCenaKarnetu());
         }
     }
-
 }
